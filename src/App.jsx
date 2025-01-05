@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 import { AuthContext } from './context/AuthContext';
 import { useContext } from 'react';
+import './style/Components.css'
+import './style/media.components.css'
 
 function App() {
 
@@ -19,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='container'>
         <Router>
           <Routes>
             <Route path="/login" element={<Login />} />

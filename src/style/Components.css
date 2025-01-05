@@ -1,0 +1,236 @@
+.side-bar{
+    background-color: #F5F7FF;
+    height: 100%;
+    width: 252px;
+    color: rgb(22, 21, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+    padding: 1rem;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+ 
+}
+.side-bar::-webkit-scrollbar {
+  display: none;
+}
+.notes-side-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.notes-side-bar{
+    background-color: #ffffff;
+    height: 100%;
+    width: 252px;
+    color: rgb(22, 21, 21);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 1rem;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0px;
+    left: 282px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+.button{
+    background-color: #E4EAFF;
+    border: none;
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    color: rgb(36, 35, 35);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary{
+    background-color: #325CFE;
+    color: white;
+}
+.w-100{
+    width: 100%;
+}
+.bg-none{
+    background-color: none;
+    border: none;
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    text-align: left;
+    background: none;
+}
+.flex-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #325CFE;
+}
+.notes-card{
+    width: 90%;
+    background-color: #e5e8ef00;
+    border-radius: 12px;
+    text-align: left;
+    margin-top: 24px;
+    padding: 12px;
+    border-bottom: 1px solid #9cb1ea;
+    cursor: pointer;
+}
+.notes-card:hover{
+    width: 90%;
+    background-color: #d4e1ffb8;
+    border-radius: 12px;
+    text-align: left;
+    margin-top: 24px;
+    padding: 12px;
+    border-bottom: 1px solid #767a85;
+    cursor: pointer;
+}
+.notes-card-active{
+    width: 90%;
+    background-color: #93b3ffb8;
+    border-radius: 12px;
+    text-align: left;
+    margin-top: 24px;
+    padding: 12px;
+    cursor: pointer;
+}
+.tag{
+    background-color: #c8d2f6;
+    margin: 3px;
+    padding: 3px;
+    margin-top: 3px;
+    border-radius: 6px;
+}
+.m-4{
+    margin: 3px;
+}
+.top-nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search{
+    width: 300px;
+    background-color: #F4F5F9;
+    height: 48px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-center;
+    overflow: hidden;
+    margin-right: 24px;
+}
+.search input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #F4F5F9;
+    padding: 0 1rem;
+    font-size: 16px;
+
+}
+.search input:focus{
+    outline: none;
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #F4F5F9;
+    padding: 0 1rem;
+    font-size: 16px;
+
+}
+.search input:active{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #F4F5F9;
+    padding: 0 1rem;
+    font-size: 16px;
+
+
+}
+.search img{
+    width: 24px;
+    height: 24px;
+}
+.active-notes{
+    width: calc(100% - 404px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px;
+    margin-left: 540px;
+    
+}
+.settings{
+    background-color: #F4F5F9;
+    height: 40px;
+    display: flex;
+    padding:  6px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-right: 24px;
+}
+.notes{
+    background-color: #F4F5F9;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:start;
+    border-radius: 6px;
+    margin-right: 24px;
+    padding: 24px;
+    
+}
+hr{
+    width: 100%;
+    border: 1px solid #b7bac2;
+}
+.note-text{
+    font-size:16px;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(50, 49, 49);
+}
+.floating{
+    position: fixed;
+    bottom: 32px;
+    right: 24px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.danger{
+    background-color: #FE3235;
+    color: white;
+}
+.archive{
+    background-color: #0A0A0A;
+    color: white;
+}
