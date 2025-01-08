@@ -240,6 +240,21 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0px;
+    background-color: #e4eaff;
+    background-blend-mode:soft-light;
+}
+.close{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    background-color: #FE3235;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
 }
 .add{
     width: 500px;

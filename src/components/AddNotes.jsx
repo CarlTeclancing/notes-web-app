@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-const AddNotes =()=> {
+const AddNotes =({setActive})=> {
   return (
     <div className='flex-center'>
+
         <form className='add'>
+            <span className="close" onClick={()=>setActive(false)}>Close</span>
             <label htmlFor="">Title</label>
             <input type="text" placeholder='Enter notes title '/>
 
