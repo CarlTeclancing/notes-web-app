@@ -8,6 +8,7 @@ import { AuthContext } from './context/AuthContext';
 import { useContext } from 'react';
 import './style/Components.css'
 import './style/media.components.css'
+import AddNotes from './components/AddNotes';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
+            <Route path="/dashboard/add-note" element={<RequireAuth><AddNotes /></RequireAuth>} />
           </Routes>
         </Router>
       </div>

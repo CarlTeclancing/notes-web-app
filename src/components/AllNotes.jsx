@@ -10,7 +10,7 @@ const AllNotes =() =>{
   return (
     <div className='notes-side-bar'>
         <h3>All Notes</h3>
-        <button className="button primary">+  Add Notes</button>
+        <button className="button primary"><Link to='add-note'>+  Add Notes</Link></button>
         <div className="notes-card-active">
             <h3>React Performance optimization</h3>
             <span className="tag">Dev</span>
