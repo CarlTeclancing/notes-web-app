@@ -258,7 +258,7 @@ hr{
 }
 .add{
     width: 500px;
-    height: 500px;
+    height: auto;
     border-radius: 12px;
     text-align: left;
     display: flex;
@@ -268,15 +268,22 @@ hr{
     justify-content: space-evenly;
     background-color: #9cb1ea77;
 }
+.add label{
+    margin-top: 24px;
+}
 .add input{
     width: 95%;
     height: 48px;
     border: none;
     background-color: #F4F5F9;
     border-radius: 6px;
+    margin-top: 12px;
     padding: 0 1rem;
     font-size: 16px;
 
+}
+.add button{
+    margin-top: 64px;
 }
 .add textarea{
     width: 95%;

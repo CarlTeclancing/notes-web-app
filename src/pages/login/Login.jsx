@@ -53,13 +53,13 @@ export default function Login() {
   return (
 
 
-    <div>
-        <form onSubmit={handleLogin}>
+    <div className='flex-center'>
+        <form className='add' onSubmit={handleLogin}>
             <label htmlFor="email">Email</label>
             <input type="email" name="email" id="email" value={email} onChange={(e)=> setEmail(e.target.value)} />
             <label htmlFor="password">Password</label>
             <input type="password" name="password" id="password" value={password} onChange={(e)=> setPassword(e.target.value)} />
-            <button type="submit">Login</button>
+            <button type="submit" className='button primary'>Login</button>
             {error && <span>password or email error</span>}
             
         </form>
