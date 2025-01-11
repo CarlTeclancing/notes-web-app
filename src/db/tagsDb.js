@@ -4,8 +4,26 @@ export default tags
 
 
 
-const notes = [
-    {title: "notes title"},
-    {tags:"dev, react, angula"},
-    {description:"this is the notes text"},
-]
+export const notes = [
+    {
+        title: "notes title",
+        tags: ["dev", "react", "angula"],
+        description: "this is the notes text",
+        date: "08/01/2025",
+        archived: false,
+    },
+    {
+        title: "notes title 2",
+        tags: ["react"],
+        description: "this is the notes text",
+        date: "08/01/2025",
+        archived: false,
+    },
+    {
+        title: "notes title 3",
+        tags: ["Angular"],
+        description: "this is the notes text",
+        date: "08/01/2025",
+        archived: false,
+    },
+];
