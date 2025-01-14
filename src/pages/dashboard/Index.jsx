@@ -6,13 +6,14 @@ import AddNotes from '../../components/AddNotes';
 
 export default function Dashboard() {
   const [active, setActive] = useState(false);
+  const [activeNote, setActiveNote] = useState('')
 
 
   return (
     <div className='container'>
       <SideBar />
       <AllNotes setActive={setActive} />
-      <ActiveNotes />
+      <ActiveNotes setActiveNote ={setActiveNote}  />
       {active === true?<AddNotes setActive={setActive} />:""}
       
     </div>
