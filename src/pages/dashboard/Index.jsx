@@ -13,7 +13,7 @@ export default function Dashboard() {
     <div className='container'>
       <SideBar />
       <AllNotes setActive={setActive} />
-      <ActiveNotes setActiveNote ={setActiveNote}  />
+      <ActiveNotes setActiveNote={setActiveNote} />
       {active === true?<AddNotes setActive={setActive} />:""}
       
     </div>
